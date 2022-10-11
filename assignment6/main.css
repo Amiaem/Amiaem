@@ -1,0 +1,40 @@
+#myForm
+{
+    color: aliceblue;
+}
+body
+{
+    background-image: url("amongus.gif");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#errormsg
+{
+    color: red;
+}
+
+#myLogin
+{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -100px;
+    color: white;
+}
+
+#myForm
+{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -150px;
+    margin-left: -300px;
+    color: white;
+}
+
+

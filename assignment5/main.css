@@ -1,0 +1,48 @@
+body
+{
+    background-image: url("pic/200.gif");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    color: aliceblue;
+}
+#text1
+{
+    margin-top: 2%;
+    width: 20%;
+    border-radius: 25%;
+}
+#topic1
+{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#comment1
+{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+#comment2
+{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+img
+{
+    width: 20%;
+    height: 20%;
+    animation: spin 2s linear;
+}
+#swap
+{
+    margin-top: 5%;
+}
+
+@keyframes spin
+{
+    0% {transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
+}

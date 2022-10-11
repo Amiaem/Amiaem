@@ -1,0 +1,237 @@
+body
+{
+   background-image: url("red.jpg") ;
+}
+
+h1
+{
+    
+    color: #413839;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+ h2
+ {
+    color: #413839 ;
+    font: size 30px;;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+ }
+ .notice
+ {
+     color: #413839;
+     position: relative;
+     text-align: left;
+     font-size: 20px;
+ }
+ h4
+{
+    background-color: #413839;
+    color: white;
+    position: relative;
+    top: 460px;
+    font-size: 30px
+}
+.howto
+{
+    width: 500px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.texthowto
+{
+ color: #413839;
+ font-size: 20px;
+ text-align: left;
+}
+h6
+{
+    color: #413839;
+    font-size: 20px;
+}
+.link
+{
+    color: #413839;
+    text-align: center;
+}
+
+#cinnamon_right
+{
+    width: 100%;
+    vertical-align: middle;
+}
+#cinnamon_left
+{
+    width: 100%;
+    vertical-align: middle;
+}
+.rawmaterial
+{
+    width: 500px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.container
+{
+    background-color: rgb(255, 255, 255);
+    width: 700px; height: 280px; margin: 0 auto;
+}
+.col
+{
+    width: 50px;height: 50px;background-color: white;float:left;
+    border: 5px solid rgb(146, 58, 58);
+    color: #2e2425;
+    font-size: 12px;
+    text-align: center;
+    padding: 30px;
+    margin: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.grid-container
+{
+    display: grid;
+    grid-template-columns: 10% auto 20%;
+    grid-gap: 10px;
+}
+
+.grid-container > div
+{
+    border: 1px solid #d2b48c;
+    font-size: 20px;
+    text-align: center;
+    background-color:#f8d7e2;
+}
+
+#header{
+    grid-column: 1 / span 3;
+}
+
+#menu{
+    grid-column: 1 / span 1;
+}
+
+#main{
+    grid-column: 2 / span 1;
+}
+#right{
+    grid-column: 3 / span 1;
+}
+
+#footer{
+    grid-column: 1 / span 3;
+}
+
+@media screen and (max-width: 500px)
+{
+    body 
+    {
+        background-color: #c96;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .grid-container{
+        display: grid;
+        grid-template-columns: auto 20%;
+        grid-gap: 10px;
+    }
+    #header{
+        grid-column: 1 / span 2;
+    }
+    #header 
+    {
+        margin-right: 1%;
+    }
+    
+    #menu{
+        grid-column: 1 / span 2;
+        text-align: left;
+    }
+    #menu 
+    {
+        margin-right: 1%;
+    }
+    
+    #menu div{
+        display: inline-block;
+    }
+
+    #main{
+        grid-column: 1 / span 1;
+    }
+    #main 
+    {
+        margin-right: 1%;
+    }
+    #right{
+        grid-column: 2 / span 1;
+    }
+    #right 
+    {
+        margin-right: 1%;
+    }
+    #footer{
+        grid-column: 1 / span 2;
+    }
+    #footer 
+    {
+        margin-right: 1%;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .grid-container{
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 10px;
+    }
+    #header{
+        grid-column: 1 / span 1;
+    }
+    #header 
+    {
+        margin-right: 1%;
+    }
+    
+    #menu{
+        grid-column: 1 / span 1;
+    }
+    #menu 
+    {
+        margin-right: 1%;
+    }
+    
+    #main{
+        grid-column: 1 / span 1;
+    }
+    #main 
+    {
+        margin-right: 1%;
+    }
+    #right{
+        grid-column: 1 / span 1;
+    }
+    #right 
+    {
+        margin-right: 1%;
+    }
+    #footer{
+        grid-column: 1 / span 1;
+    }
+    #footer 
+    {
+        margin-right: 1%;
+    }
+}
+
+#right img{
+    width:100%;
+}
+
+#right div{
+    margin-bottom: 20px;
+}
